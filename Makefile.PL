@@ -5,6 +5,10 @@ license  'perl';
 all_from 'lib/DBIx/Class/InflateColumn/Boolean.pm';
 author   'Bernhard Graf <perl-misc@movingtarget.de>';
 
+resources
+  bugtracker => "https://rt.cpan.org/Public/Bug/Report.html?Queue=DBIx-Class-InflateColumn-Boolean",
+  repository => "https://github.com/augensalat/DBIx-Class-InflateColumn-Boolean";
+
 requires 'DBIx::Class' => 0.08;
 requires 'Contextual::Return' => 0.004007;
 
